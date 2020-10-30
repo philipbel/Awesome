@@ -7890,7 +7890,7 @@ public struct AwesomePro {
         case yinYang = "\u{f6ad}"
 
         public var fontType: AwesomeFont {
-            return AwesomePro.Font.solid
+            return AwesomePro.Font.light
         }
     }
 
