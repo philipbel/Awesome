@@ -116,7 +116,7 @@ class Fonts {
 
         let fontBundle: Bundle!
         if bundle == nil {
-            fontBundle = Bundle(for: Fonts.self)
+            fontBundle = Bundle(for: object_getClass(self)!)
         } else {
             fontBundle = bundle
         }
